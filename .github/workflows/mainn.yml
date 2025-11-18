@@ -4,7 +4,7 @@ on: push
 
 jobs:
   check_cpu:
-    runs-on: depot-ubuntu-24.04-16
+    runs-on: depot-ubuntu-24.04-32
     strategy:
       matrix:
         instance: [1] 
